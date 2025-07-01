@@ -1,0 +1,49 @@
+GIT Basics
+
+3 estados de GIT:
+
+1. Working Directoy (modified).
+
+2. Staging Area (prepareción, esta contenido en el directorio de git).
+
+3. Local Repository (commited, es lo que la gente va a clonar, se debe hacer un push a un repositorio remoto)
+
+
+Configuración:
+- git config --global user.name "<user_same>"
+- git config --global user.email <correo>
+- git config --list (Para verificar)
+- git config user.name
+
+
+
+comandos:
+
+- git init (inicializa el reposotorio de git)
+
+- ls (muestra archivos en la carpeta)
+
+- ls -a (muestra archivos ocultos)
+
+- cd .. (regresa una carpeta hacia atrás)
+
+- git add <file_name> (Pasa al Staging Area, stage), 
+
+- git status (indica el estado de los archivos)
+
+- git commit -m "<comentario>" (Si no ponemos el -m y comentario se abre directo el archivo. Los archivos que no estén con add no se van a subir)
+
+- git git log "Se puede ver el historial de todos los commit que se han hecho, quien lo hizo, y su comentario"
+
+- git remote add origin <dirección que está en github> (por convención se utiliza origin, lo que hace este comando es conectar tu repositorio local con tu repositorio remoto)
+
+- git remote -v (muestra el fetch y push)
+
+- git push origin master (push envía archivos desde el repositorio local al repositorio remoto)
+
+- git pull origin master (pasa los cambios que se hacen en gitHub a tu repositorio local)
+
+- git help --all
+
+
+ 

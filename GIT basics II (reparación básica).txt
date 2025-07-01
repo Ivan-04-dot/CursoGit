@@ -1,0 +1,44 @@
+GIT basics II (reparación básica)
+
+Comandos:
+---------------------------------------------
+- git clean (puedes cambiar la variable de operación o forzar la operación): 
+
+- git clean -f (con esto puedes forzar para eliminar y solo limpia los archivos en untracked)
+
+Si nunca haz hecho un commit de un archivo va a aparecer como untracked, si ya lo hiciste ya no te va a salir en untracked	
+
+- git clean -n (muestra los archivos que se van a eliminar)
+---------------------------------------------
+
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
